@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>SEF - Application Dashboard</h1>
+    <p class="lead">Update SAP data with the applications on this dashboard.</p>   
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Accounting WIP Clearing</h2>
+        <p>
+            Start/stop this application that will run WIPClearing continuiously.
+        </p>
+        <p><input type="submit" value="Start" class="btn btn-default" onclick="location.href='@Url.Action("RunClearingAsync","Home")'"></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Customer Order Block</h2>
+        <p>Block a list of customers from placing orders.</p>
+        <p><input type="submit" value="Start" class="btn btn-default" onclick="location.href='@Url.Action("CustomerOrderBlock","Home")'"></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Under Construction</h2>
+        @*<p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEFApplicationDashboard", "SEFApplicationDashboard.csproj", "{9CB39343-D0D5-417B-9813-FF3146FE334C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPWebService", "..\..\SAPWebService\SAPWebService.csproj", "{4FDED7D4-DCB0-46C0-AE3F-1D01809599BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CB39343-D0D5-417B-9813-FF3146FE334C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB39343-D0D5-417B-9813-FF3146FE334C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB39343-D0D5-417B-9813-FF3146FE334C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB39343-D0D5-417B-9813-FF3146FE334C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDED7D4-DCB0-46C0-AE3F-1D01809599BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDED7D4-DCB0-46C0-AE3F-1D01809599BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDED7D4-DCB0-46C0-AE3F-1D01809599BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDED7D4-DCB0-46C0-AE3F-1D01809599BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB046876-52AB-45DD-BF10-A474A12EF930}
+	EndGlobalSection
+EndGlobal
