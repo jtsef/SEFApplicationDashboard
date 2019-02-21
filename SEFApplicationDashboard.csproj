@@ -994,7 +994,7 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\visualStudio\SAPWebService\SAPWebService.csproj">
+    <ProjectReference Include="..\SAPWebService\SAPWebService.csproj">
       <Project>{4fded7d4-dcb0-46c0-ae3f-1d01809599bf}</Project>
       <Name>SAPWebService</Name>
     </ProjectReference>
